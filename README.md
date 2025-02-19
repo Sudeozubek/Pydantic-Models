@@ -4,9 +4,6 @@ This repository contains various **Pydantic examples** for data validation and m
 
 ---
 
-## 📂 Project Structure
-
----
 
 ## ✨ **What You Will Learn**
 - How to create **BaseModel** classes
