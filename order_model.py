@@ -23,4 +23,4 @@ try:
     order = Order(order_id=2, customer_name="Sude", items=["Laptop"], total_price=1500, status="shipped")
     print("successful ordered", order)
 except Exception as e:
-    print("error:", e)
+    print("error:", e) 
