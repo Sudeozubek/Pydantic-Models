@@ -8,7 +8,7 @@ class Order(BaseModel):
     status: str
 
     @field_validator("items")
-    def check_items_not_empty(cls, value):
+    def check_items_not_empty(cls, value): 
         if not value:
             raise ValueError("siparis en az 1 ürün içermelidir!")
         return value
