@@ -12,7 +12,7 @@ class ShoppingList(BaseModel):
       return value
 
 try:
-    shopping_list = ShoppingList(item_name="Ayakkabı", amount=55.4)
+    shopping_list = ShoppingList(item_name="Ayakkabı", amount=55.4) 
     print(shopping_list)
 except Exception as e:
     print(e)
