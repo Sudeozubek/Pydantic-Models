@@ -7,7 +7,7 @@ class ShoppingList(BaseModel):
 
     @field_validator("item_name") 
     def check_empty_item_name(cls, value):
-      if not value.strip():
+      if not value.strip(): 
           raise ValueError("item_name cannot be empty")
       return value
 
