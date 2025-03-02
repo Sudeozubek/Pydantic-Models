@@ -5,7 +5,7 @@ class ShoppingList(BaseModel):
     amount: float  = Field(..., ge=1)
     is_purchased: bool = False
 
-    @field_validator("item_name")
+    @field_validator("item_name") 
     def check_empty_item_name(cls, value):
       if not value.strip():
           raise ValueError("item_name cannot be empty")
